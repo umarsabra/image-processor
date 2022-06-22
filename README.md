@@ -1,6 +1,8 @@
 ![Udacity Logo](https://upload.wikimedia.org/wikipedia/commons/3/3b/Udacity_logo.png)
 
-# Image Processor
+# ![Logo](https://www.clipartmax.com/png/full/145-1454284_software-for-laser-cutting-engraving-icon-no-image-available.png) Image Processor
+
+### By Omar Sabra
 
 Simple API that allows you to resize image by giving the image name, width and height as query strings.
 
