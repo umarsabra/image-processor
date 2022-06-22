@@ -26,10 +26,10 @@ router.use((req, res, next) => {
 
     //Checking if the image exists
   } else if (!images.includes(req.query.name as string)) {
+    res.status(404);
     res.json({
       error: `there is no image with name: ${req.query.name}`,
     });
-    res.status(404);
   } else {
     next();
   }

@@ -1,3 +1,4 @@
+//Code snippets from spec reporter documentaion
 import {
   DisplayProcessor,
   SpecReporter,
