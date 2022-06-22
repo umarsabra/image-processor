@@ -41,7 +41,7 @@ router.get("/", async (req, res) => {
   const height = Number(req.query.height);
   const target = String(req.query.name);
 
-  //Check cache for desired image
+  //Check cache for desired image size
   const resized_image_name = `${target}_${width}_${height}.jpg`;
   const resized_image_path = path.resolve(
     "assets/processed",
@@ -57,7 +57,7 @@ router.get("/", async (req, res) => {
     const output = await resize(width, height, target);
 
     //Sending the resized image
-    res.sendFile(path.resolve(`assets/processed/${output}`));
+    res.sendFile(path.resolve("assets/processed", output));
   }
 });
 
