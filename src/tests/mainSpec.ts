@@ -7,7 +7,7 @@ const request = supertest(app);
 describe("Test root path status code", () => {
   it("Checks status code to be = 200", async () => {
     const res = await request.get("/");
-    expect(res.status).toBe(200);
+    expect(res.status).toBe(200); //20- OK
   });
 });
 

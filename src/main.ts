@@ -1,12 +1,14 @@
 import express from "express";
+import path from "path";
 import { resize } from "./routes";
+
 const app = express();
 
 app.use("/resize", resize);
 
-//Main Route
+//Home Page
 app.get("/", (req, res) => {
-  res.send("hello world");
+  res.sendFile(path.resolve("static/index.html"));
 });
 
 //Initial server setup
