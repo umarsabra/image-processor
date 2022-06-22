@@ -7,10 +7,6 @@ Simple API that allows you to resize image by giving the image name, width and h
 - it can be embedded in an `src` tag as it returns the resized image without any additional information
 - it also caches the resized image for fast access in the future without going through the processing time again
 
-## Add Your Own Image
-
-you can add your own image in the raw folder `assets/raw` and then add the image name in images array in `src/routes/resize_route.ts`
-
 ## Installation
 
 ```bash
@@ -19,6 +15,10 @@ you can add your own image in the raw folder `assets/raw` and then add the image
     npm i
     npm start
 ```
+
+## Add Your Own Image
+
+you can add your own image in the raw folder [assets/raw](https://github.com/umarsabra/image-processor/tree/main/assets/raw) and then add the image name in images array in [src/routes/resize_route.ts](https://github.com/umarsabra/image-processor/blob/main/src/routes/resize_route.ts)
 
 ## Quick Start
 
