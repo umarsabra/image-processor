@@ -19,6 +19,6 @@ Simple API that allows you to resize image by giving the image name, width and h
 
 ## Examples
 
-**Example 1:** `http://localhost:3000/resize?name=cat&width=400&height=400`
-**Example 2:** `http://localhost:3000/resize?name=city&width=800&height=400`
-**Example 3:** `http://localhost:3000/resize?name=phone&width=400&height=700`
+- **Example 1:** `http://localhost:3000/resize?name=cat&width=400&height=400`
+- **Example 2:** `http://localhost:3000/resize?name=city&width=800&height=400`
+- **Example 3:** `http://localhost:3000/resize?name=phone&width=400&height=700`
