@@ -4,8 +4,12 @@ Simple API that allows you to resize image by giving the image name, width and h
 
 ## Usage
 
-- it can be embedded in an src tag as it returns the resized image without any additional information
+- it can be embedded in an `src` tag as it returns the resized image without any additional information
 - it also caches the resized image for fast access in the future without going through the processing time again
+
+## Add Your Own Image
+
+you can add your own image in the raw folder `assets/raw` and then add the image name in images array in `src/routes/resize_route.ts`
 
 ## Installation
 
@@ -15,6 +19,8 @@ Simple API that allows you to resize image by giving the image name, width and h
     npm i
     npm start
 ```
+
+## Quick Start
 
 `http://localhost:3000/resize` takes 3 query strings
 
