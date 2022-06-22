@@ -42,6 +42,9 @@ router.get("/", async (req, res) => {
   const target = String(req.query.name);
 
   //Check cache for desired image size
+  /**
+   * Processed image have in it's name the width and height for refering to it in the future if the image has been processed before with the same dimensions
+   */
   const resized_image_name = `${target}_${width}_${height}.jpg`;
   const resized_image_path = path.resolve(
     "assets/processed",
