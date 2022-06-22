@@ -9,7 +9,11 @@ Simple API that allows you to resize image by giving the image name, width and h
 
 ## Installation
 
-`git clone https://github.com/umarsabra/image-processor.git`
+```bash
+    git clone https://github.com/umarsabra/image-processor.git
+    npm i
+    npm start
+```
 
 `http://localhost:3000/resize` takes 3 query strings
 
