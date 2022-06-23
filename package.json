@@ -4,6 +4,9 @@
   "description": "API for resizing images",
   "main": "dist/src/main.js",
   "scripts": {
+    "lint": "eslint .",
+    "prettier": "prettier --config .prettierrc '**.ts' --write",
+    "format": "npm run lint && npm run prettier",
     "build": "npx tsc --build",
     "test": "npm run build && jasmine",
     "start": "npm run test && node ."
