@@ -7,7 +7,7 @@ const app = express();
 app.use("/resize", resize);
 
 //Home Page
-app.get("/", (req, res) => {
+app.get("/", (req: express.Request, res: express.Response): void => {
   res.sendFile(path.resolve("static/index.html"));
 });
 
