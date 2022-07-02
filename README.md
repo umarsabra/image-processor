@@ -1,5 +1,3 @@
-![Udacity Logo](https://upload.wikimedia.org/wikipedia/commons/3/3b/Udacity_logo.png)
-
 # 💎 Image Processor
 
 Simple API that allows you to resize image by giving the image name, width and height as query strings.
